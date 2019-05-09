@@ -23,6 +23,7 @@
 ### 3.3 观察者模式
 ### 3.4 迭代子模式
 ### 3.5 责任链模式
+> *http://note.youdao.com/noteshare?id=8e8261052cdabd599a71a1c873f9a2bc&sub=CF4EFD0BE871410F81CAF125A3F79EEB*
 ### 3.6 命令模式
 ### 3.7 备忘录模式
 ### 3.8 状态模式
