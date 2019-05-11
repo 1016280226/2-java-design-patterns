@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="handler-desgin-patterns" />
         <module name="strategy-desgin-patterns" />
+        <module name="factory-desgin-patterns" />
+        <module name="handler-desgin-patterns" />
+        <module name="template-desgin-patterns" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="factory-desgin-patterns" options="-parameters" />
       <module name="handler-desgin-patterns" options="-parameters" />
       <module name="strategy-desgin-patterns" options="-parameters" />
+      <module name="template-desgin-patterns" options="-parameters" />
     </option>
   </component>
 </project>

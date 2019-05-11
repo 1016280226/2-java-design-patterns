@@ -10,6 +10,8 @@
     <modules>
         <module>strategy-desgin-patterns</module>
         <module>handler-desgin-patterns</module>
+        <module>factory-desgin-patterns</module>
+        <module>template-desgin-patterns</module>
     </modules>
 
     <parent>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factory-desgin-patterns" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/handler-desgin-patterns" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/strategy-desgin-patterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template-desgin-patterns" charset="UTF-8" />
   </component>
 </project>

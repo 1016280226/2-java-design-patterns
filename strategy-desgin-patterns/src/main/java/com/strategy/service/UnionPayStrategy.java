@@ -5,12 +5,12 @@ import org.springframework.stereotype.Component;
 
 /**
  * Created by Calvin on 2019/5/8
- * 通过AliPay 策略实现共同的骨架
+ * 通过银联策略实现共同的骨架
  */
 @Component
-public class AliPayStrategy implements PayStrategy {
+public class UnionPayStrategy implements PayStrategy {
 
     public String toPayHtml() {
-        return "调用支付宝接口...";
+        return "调用银联接口...";
     }
 }

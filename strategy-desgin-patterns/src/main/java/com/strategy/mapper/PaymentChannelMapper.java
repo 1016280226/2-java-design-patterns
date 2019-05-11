@@ -10,10 +10,10 @@ public interface PaymentChannelMapper {
 
     @Select("\n" +
             "SELECT  " +
-            "id as id ,CHANNEL_NAME as CHANNELNAME ," +
-            "CHANNEL_ID as CHANNELID," +
-            "strategy_bean_id AS strategybeanid\n" +
+            "id as id ,channel_name as channelName ," +
+            "channel_id as channelId," +
+            "strategy_bean_id AS strategyBeanId\n" +
             "FROM payment_channel " +
-            "where CHANNEL_ID=#{payCode}")
+            "where channel_id=#{payCode}")
     public PaymentChannelEntity getPaymentChannel(String payCode);
 }
