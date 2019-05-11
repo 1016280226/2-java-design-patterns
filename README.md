@@ -20,6 +20,7 @@
 
 ## 3. 行为模式
 ### 3.1 策略模式
+> *http://note.youdao.com/noteshare?id=f4d377cbedcf73eb4ac226ab47d9365a&sub=211CE5204CF04A58BC1E05DA331F8E20*
 ### 3.2 模板方法模式
 ### 3.3 观察者模式
 ### 3.4 迭代子模式
