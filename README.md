@@ -2,6 +2,7 @@
 
 ## 1.创建型模式
 ### 1.1 工厂方法模式
+> *http://note.youdao.com/noteshare?id=b824a01d0baf22df918a323be63a8d66&sub=DE43951C005840E1BAA62A60E183BA67*
 ### 1.2 抽象工厂模式 
 ### 1.3 单例模式
 ### 1.4 建造者模式
@@ -22,6 +23,7 @@
 ### 3.1 策略模式
 > *http://note.youdao.com/noteshare?id=f4d377cbedcf73eb4ac226ab47d9365a&sub=211CE5204CF04A58BC1E05DA331F8E20*
 ### 3.2 模板方法模式
+> *http://note.youdao.com/noteshare?id=cece255e311b9405be21192e8ba3ba92&sub=DBD5EA35E81A47D79F475AB03142E3CF*
 ### 3.3 观察者模式
 ### 3.4 迭代子模式
 ### 3.5 责任链模式
