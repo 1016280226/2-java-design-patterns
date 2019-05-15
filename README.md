@@ -2,6 +2,7 @@
 
 ## 1.创建型模式
 ### 1.1 工厂方法模式
+> *http://note.youdao.com/noteshare?id=b824a01d0baf22df918a323be63a8d66&sub=DE43951C005840E1BAA62A60E183BA67*
 ### 1.2 抽象工厂模式 
 ### 1.3 单例模式
 ### 1.4 建造者模式
