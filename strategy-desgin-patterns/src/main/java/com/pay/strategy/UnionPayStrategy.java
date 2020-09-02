@@ -1,6 +1,5 @@
-package com.strategy.service;
+package com.pay.strategy;
 
-import com.strategy.strategy.PayStrategy;
 import org.springframework.stereotype.Component;
 
 /**
