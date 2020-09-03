@@ -1,4 +1,4 @@
-package com.template.utils;
+package com.pay.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

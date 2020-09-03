@@ -1,6 +1,5 @@
-package com.template;
+package com.pay;
 
-import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -11,8 +10,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @Description:
  */
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
-public class AppTemplate {
+public class PayCallbackApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AppTemplate.class);
+        SpringApplication.run(PayCallbackApplication.class);
     }
 }
