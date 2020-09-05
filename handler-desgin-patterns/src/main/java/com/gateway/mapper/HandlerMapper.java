@@ -1,6 +1,7 @@
-package com.handler.mapper;
+package com.gateway.mapper;
 
-import com.handler.entity.HandlerEntity;
+import com.gateway.entity.GatewayHandlerEntity;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
 /**
@@ -8,9 +9,34 @@ import org.apache.ibatis.annotations.Select;
  */
 public interface HandlerMapper {
 
-    @Select("SELECT  handler_name AS handlerName,handler_id AS handlerid ,prev_handler_id AS prevhandlerid ,next_handler_id AS nexthandlerid  FROM handler WHERE  prev_handler_id is null;")
-    public HandlerEntity getFirstHandler();
+    /**
+     * 查询第一个处理器
+     *
+     * @return 网管处理器实体类
+     */
+    @Select("SELECT " +
+            "id AS id," +
+            "handler_name AS handlerName," +
+            "handler_bean_id AS handlerBeanId ," +
+            "pre_handler_bean_id AS preHandlerBeanId ," +
+            "next_handler_bean_id AS nextHandlerBeanId  " +
+            "FROM gateway_handler " +
+            "WHERE pre_handler_bean_id IS NULL;")
+    GatewayHandlerEntity getFirstHandler();
 
-    @Select("SELECT  handler_name AS handlerName,handler_id AS handlerid ,prev_handler_id AS prevhandlerid ,next_handler_id AS nexthandlerid   FROM handler WHERE  handler_id=#{handlerId}")
-    public HandlerEntity getByHandler(String handlerId);
+    /**
+     * 根据处理器BeanId, 查询处理器
+     *
+     * @param handlerBeanId 处理器BeanId
+     * @return 网管处理器实体类
+     */
+    @Select("SELECT " +
+            "id AS id," +
+            "handler_name AS handlerName," +
+            "handler_bean_id AS handlerBeanId ," +
+            "pre_handler_bean_id AS preHandlerBeanId ," +
+            "next_handler_bean_id AS nextHandlerBeanId  " +
+            "FROM gateway_handler " +
+            "WHERE handler_bean_id=#{handlerBeanId}")
+    GatewayHandlerEntity getByHandler(@Param("handlerBeanId") String handlerBeanId);
 }

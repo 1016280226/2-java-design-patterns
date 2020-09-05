@@ -1,4 +1,4 @@
-package com.gateway.handler;
+package com.gateway.handler.abstracts;
 
 /**
  * Created by Calvin on 2019/5/9
@@ -13,8 +13,9 @@ public abstract class Handler {
 
     /**
      * 共同的处理行为(强制必须实现)
+     * 具体功能
      */
-    public abstract void handler();
+    public abstract void function();
 
     /**
      * 设置下一个处理任务
@@ -28,8 +29,9 @@ public abstract class Handler {
      * 获取下一个处理任务
      */
     protected void getNextHandler(){
-        if(nextHandler != null)
-            // 指向下一个任务
-            nextHandler.handler();
+        if(nextHandler != null) {
+            // 指向下一个处理器功能
+            nextHandler.function();
+        }
     }
 }

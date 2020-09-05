@@ -8,7 +8,7 @@ import java.io.Serializable;
  * Created by Calvin on 2019/5/9
  */
 @Data
-public class HandlerEntity implements Serializable, Cloneable {
+public class GatewayHandlerEntity implements Serializable, Cloneable {
 
     /** 主键ID **/
     private Long id;

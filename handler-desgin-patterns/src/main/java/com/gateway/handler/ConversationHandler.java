@@ -1,7 +1,7 @@
-package com.gateway.handler.impl;
+package com.gateway.handler;
 
 
-import com.gateway.handler.Handler;
+import com.gateway.handler.abstracts.Handler;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 public class ConversationHandler extends Handler {
 
     @Override
-    public void handler() {
-        System.out.println("第三关 用户会话信息拦截 ......");
+    public void function() {
+        System.out.println(">>>>>>>>>>> 第三关：用户会话信息拦截......");
+        getNextHandler();
     }
 }

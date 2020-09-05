@@ -5,9 +5,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.handler.mapper")
-public class AppHandler {
+@MapperScan("com.gateway.mapper")
+public class GatewayApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AppHandler.class);
+        SpringApplication.run(GatewayApplication.class);
     }
 }

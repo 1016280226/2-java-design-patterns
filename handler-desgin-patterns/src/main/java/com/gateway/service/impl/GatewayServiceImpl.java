@@ -1,8 +1,9 @@
 package com.gateway.service.impl;
 
-import com.gateway.entity.HandlerEntity;
-import com.gateway.handler.Handler;
+import com.gateway.entity.GatewayHandlerEntity;
+import com.gateway.handler.abstracts.Handler;
 import com.gateway.mapper.HandlerMapper;
+import com.gateway.service.GatewayService;
 import com.gateway.utils.ContextUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,49 +14,60 @@ import org.springframework.stereotype.Service;
  * Created by Calvin on 2019/5/10
  */
 @Service
-public class HandlerServiceImpl {
+public class GatewayServiceImpl implements GatewayService {
 
     @Autowired
     private HandlerMapper handlerMapper;
 
+    // 处理器第二次存在内存当中
     private Handler handler;
 
-    public Handler getFirstHandler(){
-        // 1.从数据库中查找地址第一个handler
-        HandlerEntity firstHandlerEntity = handlerMapper.getFirstHandler();
-        if(firstHandlerEntity == null){
-            return  null;
-        }
-        // 2.获取到handler任务ID 放入到spring 容器中
-        String handlerId = firstHandlerEntity.getHandlerId();
-        Handler firstHandler = ContextUtils.getBean(handlerId, Handler.class);
-
-        // 3.获取下一个handler 容器beanId
-        String nextHandlerId = firstHandlerEntity.getNextHandlerId();
-
-        // 4.记录当前循环handler对象
-        Handler tempHandler = firstHandler;
-
-        // 如果为空说明是只有一个handler 对象
-        while (!StringUtils.isEmpty(nextHandlerId)){
-
-            // 5.从容器获取下一个handler对象
-            Handler nextHandler = ContextUtils.getBean(nextHandlerId, Handler.class);
-            tempHandler.setNextHandler(nextHandler);
-
-            // 6.设置下一个nextHandlerId
-            HandlerEntity nextHandlerEntity = handlerMapper.getByHandler(nextHandlerId);
-
-            // 如果为空说明是最后一个
-            if (nextHandlerEntity == null) {
-                break;
+    @Override
+    public void function() {
+        // 如果处理器为空，执行第一次赋值后，第二次存在内存当中
+        if (handler == null) {
+            // 1.从数据库中查找地址第一个处理器信息
+            GatewayHandlerEntity firstHandlerEntity = handlerMapper.getFirstHandler();
+            // 2.获取第一个处理器
+            String handlerBeanId = firstHandlerEntity.getHandlerBeanId();
+            Handler firstHandler = ContextUtils.getBean(handlerBeanId, Handler.class);
+            // 3.记录当前循环handler对象
+            Handler tempHandler = firstHandler;
+            if(firstHandlerEntity.getNextHandlerBeanId() != null){
+                // 4.获取下一个处理器beanId
+                String nextHandlerBeanId = firstHandlerEntity.getNextHandlerBeanId();
+                // 5. 递归
+                recursive(nextHandlerBeanId, tempHandler);
             }
-            // 赋值的作用让它继续判断是否有下一个
-            nextHandlerId = nextHandlerEntity.getNextHandlerId();
-            tempHandler =  nextHandler;
+            handler = tempHandler;
         }
+        // 6.执行处理器的所有功能。
+        handler.function();
+    }
 
-        this.handler = firstHandler;
-        return firstHandler;
+    /**
+     * 递归：设置下一个处理器
+     *
+     * @param nextHandlerBeanId 下一个处理器BeanId
+     * @param tempHandler 临时处理器
+     */
+    private void recursive(String nextHandlerBeanId, Handler tempHandler) {
+        // 处理器中的下一个处理器不为空。
+        if (!StringUtils.isEmpty(nextHandlerBeanId)) {
+            // 下一个处理器不为空，得到下一个处理器.
+            Handler nextHandler = ContextUtils.getBean(nextHandlerBeanId, Handler.class);
+            // 设置临时处理器中的下一个处理器
+            tempHandler.setNextHandler(nextHandler);
+            // 设置下一个nextHandlerId
+            GatewayHandlerEntity nextHandlerEntity = handlerMapper.getByHandler(nextHandlerBeanId);
+
+            if (null != nextHandlerEntity) {
+                // 赋值的作用让它继续判断是否有下一个
+                nextHandlerBeanId = nextHandlerEntity.getNextHandlerBeanId();
+                tempHandler =  nextHandler;
+                // 递归
+                this.recursive(nextHandlerBeanId, tempHandler);
+            }
+        }
     }
 }
