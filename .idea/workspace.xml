@@ -19,34 +19,196 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f257d6b6-19c0-417e-9831-8042bb2f5475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/proxy/JdkInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/service/OrderDynamicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/service/OrderDynamicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/proxy/OrderStaticProxy1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/service/OrderStaticService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/service/OrderStaticServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/enumeration/PayCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/service/PayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java" afterDir="false" />
+    <list default="true" id="f257d6b6-19c0-417e-9831-8042bb2f5475" name="Default Changelist" comment="《设计模式-单例模式》">
+      <change afterPath="$PROJECT_DIR$/1-singleton-pattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-factory-pattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-builder-pattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-proxy-pattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-observer-pattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-observer-pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/StrategyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/entity/PaymentChannelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/enumeration/PayCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/mapper/PaymentChannelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/service/impl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/AliPayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/PayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/UnionPayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/WechatPayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-template-desgin-patterns/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/entity/GatewayHandlerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/ApiCurrentLimitHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/BlackListHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/ConversationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/abstracts/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/mapper/HandlerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/service/GatewayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/service/impl/GatewayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/utils/ContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/resources/gateway_handler.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/5-代理设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/4-代理模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/handler/JdkInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/handler/JdkInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/intercept/CglibMethodInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/intercept/CglibMethodInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/proxy/OrderProxy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/proxy/OrderProxy1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/proxy/OrderProxy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/proxy/OrderProxy2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/ComputerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/ComputerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/abstracts/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/abstracts/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/abstracts/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/abstracts/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/builder/MacBookBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/MacBookBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/builder/WindowsBookBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/WindowsBookBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/controller/ComputerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/controller/ComputerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/enumeration/ComputerBuildEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/enumeration/ComputerBuildEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/service/ComputerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/ComputerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/service/impl/ComputerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/ComputerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/service/impl/MacBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/MacBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/service/impl/WindowsBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/WindowsBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/builder-patterns/笔记四 建造者模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/3-建造者模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/BaseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/BaseComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/LimitComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/LimitComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/LogComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/LogComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/abstracts/AbstractDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/abstracts/AbstractDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/abstracts/GatewayComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/abstracts/GatewayComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/factory/GatewayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/factory/GatewayFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/笔记五 装饰者设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/9-装饰者设计模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/CarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/CarApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/enumeration/CarCategoryEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/enumeration/CarCategoryEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/factory/AutomobileSalesServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/factory/AutomobileSalesServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/factory/NioCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/factory/NioCarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/factory/VolkswagenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/factory/VolkswagenFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/ChairService.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/ChairService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/EngineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/EngineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/impl/NioCarChairServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/impl/NioCarChairServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/impl/NioCarEngineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/impl/NioCarEngineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/impl/VolkswagenChairServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/impl/VolkswagenChairServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/impl/VolkswagenEngineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/impl/VolkswagenEngineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/enumeration/CarCategoryEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/enumeration/CarCategoryEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/enumeration/NioCarModeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/enumeration/NioCarModeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/enumeration/TslaCarModleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/enumeration/TslaCarModleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/factory/AutomobileSalesServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/AutomobileSalesServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/factory/NioFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/NioFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/factory/TslaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/TslaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/NioEC6CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/NioEC6CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/NioES6CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/NioES6CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/NioES8CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/NioES8CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/TslaModel3CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/TslaModel3CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/TslaModelSCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/TslaModelSCarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/TslaModelXCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/TslaModelXCarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/enumeration/CarBrandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/enumeration/CarBrandEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/factory/AutomobileSalesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/factory/AutomobileSalesFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/service/impl/NioCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/service/impl/NioCarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/service/impl/TslaCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/service/impl/TslaCarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/AppFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/controller/PaymentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/factory/PaymentFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/service/AliPayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/service/PaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/service/WechatServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/笔记三 工厂设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/2-工厂模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/entity/GatewayHandlerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/handler/ApiCurrentLimitHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/handler/BlackListHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/handler/ConversationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/handler/abstracts/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/mapper/HandlerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/service/GatewayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/service/impl/GatewayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/utils/ContextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/resources/gateway_handler.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/笔记二 责任链设计模式.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/AppStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/StrategyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/context/PayContextStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/service/impl/PayServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/entity/PaymentChannelEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/entity/PaymentChannelEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/mapper/PaymentChannelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/mapper/PaymentChannelMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/service/AliPayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/AliPayStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/service/UnionPayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/UnionPayStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/service/WechatPayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/WechatPayStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/strategy/PayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/PayStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/strategy/utils/ContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/classes/com/strategy/entity/PaymentChannelEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/classes/com/strategy/mapper/PaymentChannelMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/笔记一 策略设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/strategy-desgin-patterns/笔记一 策略设计模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/proxy/JdkInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/service/OrderDynamicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/service/OrderDynamicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/proxy/OrderStaticProxy1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/service/OrderStaticService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/service/OrderStaticServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/DoubleSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/DoubleSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/Hungry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/Lazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/SecuritySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/SecuritySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/StaticInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/StaticInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/单例模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/1-单例模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/StrategyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/entity/PaymentChannelEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/enumeration/PayCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/mapper/PaymentChannelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/service/PayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/service/impl/PayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/AliPayStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/PayStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/UnionPayStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/WechatPayStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/strategy-desgin-patterns-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/笔记一 策略设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/6-策略模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/PayCallbackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/PayCallbackApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/controller/PayCallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/controller/PayCallbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/enumeration/PayCallbackTemplateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/enumeration/PayCallbackTemplateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/factory/TemplateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/factory/TemplateFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/AliPayCallbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/AliPayCallbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/UnionPayCallbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/UnionPayCallbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/abstracts/AbstractPayCallbackTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/abstracts/AbstractPayCallbackTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/impl/AliPayCallbackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/impl/AliPayCallbackServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/impl/UnionPayCallbackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/impl/UnionPayCallbackServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/笔记四 模板方法设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/7-模板模式.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +222,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/service/impl/GatewayServiceImpl.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -91,105 +257,528 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1-singleton-pattern" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\github\design-patterns\builder-patterns\src\main\java\com\computer\service\abstracts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\github\design-patterns\factory-desgin-patterns\src" />
-      <recent name="G:\localspace\design-patterns\strategy-desgin-patterns" />
-      <recent name="G:\localspace\design-patterns\strategy-desgin-patterns\src\main\resources" />
-      <recent name="G:\localspace\design-model\handler-desgin-patterns\src\main\resources" />
+      <recent name="G:\workspace\github\design-patterns\1-singleton-pattern" />
+      <recent name="G:\workspace\github\design-patterns\2-factory-pattern" />
+      <recent name="G:\workspace\github\design-patterns\3-builder-pattern" />
+      <recent name="G:\workspace\github\design-patterns\4-proxy-pattern" />
+      <recent name="G:\workspace\github\design-patterns\5-observer-pattern" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pay.service.impl" />
-      <recent name="com.proxy" />
-      <recent name="com.factory.service" />
-      <recent name="com.strategy" />
-      <recent name="com.utils" />
+      <recent name="com.order.dynamic.controller" />
+      <recent name="com.computer.service.builder" />
+      <recent name="com.computer.service.impl" />
+      <recent name="com.car.abstracts.enumeration" />
+      <recent name="com.car.abstracts.factory" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gateway.service" />
       <recent name="com.strategy.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StrategyApplication">
-    <configuration name="JdkInvocationHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dynamic.proxy.JdkInvocationHandler" />
-      <module name="proxy-desgin-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dynamic.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/computer/build" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="os" />
+                <option name="value" value="WINDOWS_BUIlD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/computer/build" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="os" />
+                <option name="value" value="WINDONS_BUILD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/computer/build" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="os" />
+                <option name="value" value="WINDOWS_BUILD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/computer/build" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="os" />
+                <option name="value" value="MAC_BUILD" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/choose/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="NIO" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/choose/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="VOLKSWAGEN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="BYD" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="唐DM" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="TSLA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="MODEL_4" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="TSLA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="MODEL_X" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="NIO" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="EC6" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="TSLA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="MODEL_5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="TLSA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="MODEL_5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="BYD" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="MODEL_3" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="AAA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="MODEL_3" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="TSLA" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="MODEL_3" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand/" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="NIO" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="EC6" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand/" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="NIO" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="NIO_EC6" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/sale/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="NIO" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="model" />
+                <option name="value" value="NIO_EC6" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/introduce/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="TSLA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/introduce/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="TLSAT" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/car/introduce/brand" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="NIO" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApplication (1)">
+    <configuration name="generated-requests#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="4-builder-patterns" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderStaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.statics.proxy.OrderStaticProxy" />
-      <module name="proxy-desgin-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.statics.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="4-builder-patterns" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderStaticProxy1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.statics.proxy.OrderStaticProxy1" />
-      <module name="proxy-desgin-patterns" />
+    <configuration name="ComputerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="4-builder-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.statics.proxy.*" />
+          <option name="PATTERN" value="com.computer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.computer.ComputerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderStaticProxy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.statics.proxy.OrderStaticProxy2" />
-      <module name="proxy-desgin-patterns" />
+    <configuration name="OrderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="2-java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.statics.proxy.*" />
+          <option name="PATTERN" value="com.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.order.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="strategy-desgin-patterns" />
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="5-proxy-desgin-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pay.*" />
+          <option name="PATTERN" value="com.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pay.StrategyApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.order.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.StrategyApplication" />
-        <item itemvalue="Application.JdkInvocationHandler" />
-        <item itemvalue="Application.OrderStaticProxy2" />
-        <item itemvalue="Application.OrderStaticProxy1" />
-        <item itemvalue="Application.OrderStaticProxy" />
+        <item itemvalue="Spring Boot.OrderApplication (1)" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="HTTP Request.generated-requests#10" />
+        <item itemvalue="Spring Boot.ComputerApplication" />
+        <item itemvalue="HTTP Request.generated-requests#5" />
       </list>
     </recent_temporary>
   </component>
@@ -213,8 +802,73 @@
       <workItem from="1559047118152" duration="302000" />
       <workItem from="1598942872653" duration="1065000" />
       <workItem from="1598943966655" duration="6720000" />
-      <workItem from="1599024110565" duration="8109000" />
+      <workItem from="1599024110565" duration="10489000" />
+      <workItem from="1599136463216" duration="20368000" />
+      <workItem from="1599221915072" duration="7074000" />
+      <workItem from="1599238528762" duration="1971000" />
+      <workItem from="1599312090084" duration="5811000" />
+      <workItem from="1599493465023" duration="3782000" />
+      <workItem from="1599545871657" duration="15201000" />
+      <workItem from="1599635289397" duration="21849000" />
+      <workItem from="1599672241541" duration="4721000" />
+      <workItem from="1599705358552" duration="9914000" />
+      <workItem from="1599897108464" duration="2204000" />
+      <workItem from="1600075530616" duration="703000" />
+      <workItem from="1600095158716" duration="6298000" />
+      <workItem from="1600138791698" duration="5569000" />
+      <workItem from="1600150935814" duration="3089000" />
+      <workItem from="1600160897451" duration="1087000" />
     </task>
+    <task id="LOCAL-00001" summary="更新策略模式">
+      <created>1599050806272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599050806273</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新模板模式">
+      <created>1599149185788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599149185788</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新模板模式">
+      <created>1599149237096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599149237096</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新责任链模式">
+      <created>1599323165662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599323165662</updated>
+    </task>
+    <task id="LOCAL-00005" summary="《设计模式-单例模式》">
+      <created>1599582678763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599582678763</updated>
+    </task>
+    <task id="LOCAL-00006" summary="《设计模式-单例模式》">
+      <created>1599712285620</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599712285620</updated>
+    </task>
+    <task id="LOCAL-00007" summary="《设计模式-单例模式》">
+      <created>1599712333546</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599712333546</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,266 +886,414 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新策略模式" />
+    <MESSAGE value="更新模板模式" />
+    <MESSAGE value="更新责任链模式" />
+    <MESSAGE value="《设计模式-工厂模式》" />
+    <MESSAGE value="《设计模式-单例模式》" />
+    <option name="LAST_COMMIT_MESSAGE" value="《设计模式-单例模式》" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1598945626039">
+    <state x="842" y="402" key="#Notifications" timestamp="1599705876635">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1598945626039" />
-    <state x="547" y="463" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598945503339">
+    <state x="842" y="402" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1599705876635" />
+    <state x="797" y="156" key="#Project_Structure" timestamp="1599639016413">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="547" y="463" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598945503339" />
-    <state x="673" y="147" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598945374799">
+    <state x="797" y="156" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1599639016413" />
+    <state x="1094" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600148863372">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="673" y="147" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598945374799" />
-    <state width="453" height="466" key="DebuggerActiveHint" timestamp="1599047718574">
+    <state x="1094" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1600148863372" />
+    <state x="765" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1600140135912">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="453" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1599047718574" />
-    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1599049500800">
+    <state x="765" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1600140135912" />
+    <state x="547" y="463" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600147774711">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599049500800" />
-    <state width="1025" height="336" key="GridCell.Tab.0.bottom" timestamp="1599048305857">
+    <state x="547" y="463" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600147774711" />
+    <state x="331" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599637958517">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.0.center" timestamp="1599048305857">
+    <state x="331" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599637958517" />
+    <state x="1047" y="328" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599638842087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.0.left" timestamp="1599048305857">
+    <state x="1047" y="328" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599638842087" />
+    <state x="966" y="228" key="#xdebugger.evaluate" timestamp="1599732939156">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.0.right" timestamp="1599048305857">
+    <state x="966" y="228" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1599732939156" />
+    <state width="870" height="466" key="DebuggerActiveHint" timestamp="1599732847188">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.1.bottom" timestamp="1599048305857">
+    <state width="870" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1599732847188" />
+    <state x="92" y="100" width="1336" height="896" key="DiffContextDialog" timestamp="1599708069371">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.1.center" timestamp="1599048305857">
+    <state x="92" y="100" width="1336" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599708069371" />
+    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1599496429786">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.1.left" timestamp="1599048305857">
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599496429786" />
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1600161920438">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.1.right" timestamp="1599048305857">
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600161920438" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1600161920438">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.2.bottom" timestamp="1599048305858">
+    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600161920438" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1600161920437">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305858" />
-    <state width="1025" height="336" key="GridCell.Tab.2.center" timestamp="1599048305857">
+    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600161920437" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1600161920438">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.2.left" timestamp="1599048305857">
+    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600161920438" />
+    <state width="1325" height="352" key="GridCell.Tab.1.bottom" timestamp="1600146601064">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305857" />
-    <state width="1025" height="336" key="GridCell.Tab.2.right" timestamp="1599048305858">
+    <state width="1325" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600146601064" />
+    <state width="1325" height="352" key="GridCell.Tab.1.center" timestamp="1600146601064">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1025" height="336" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599048305858" />
-    <state x="461" y="184" key="SettingsEditor" timestamp="1598944106100">
+    <state width="1325" height="352" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600146601064" />
+    <state width="1325" height="352" key="GridCell.Tab.1.left" timestamp="1600146601064">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1598944106100" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599050588311">
+    <state width="1325" height="352" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600146601064" />
+    <state width="1325" height="352" key="GridCell.Tab.1.right" timestamp="1600146601064">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599050588311" />
+    <state width="1325" height="352" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600146601064" />
+    <state width="1301" height="352" key="GridCell.Tab.2.bottom" timestamp="1600104992530">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1301" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600104992530" />
+    <state width="1301" height="352" key="GridCell.Tab.2.center" timestamp="1600104992530">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1301" height="352" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600104992530" />
+    <state width="1301" height="352" key="GridCell.Tab.2.left" timestamp="1600104992529">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1301" height="352" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600104992529" />
+    <state width="1301" height="352" key="GridCell.Tab.2.right" timestamp="1600104992530">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1301" height="352" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600104992530" />
+    <state x="496" y="327" width="998" height="708" key="SettingsEditor" timestamp="1600161985555">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="496" y="327" width="998" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600161985555" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1599712342749">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599712342749" />
+    <state x="759" y="317" key="chooseDestDirectoryDialog" timestamp="1599142756825">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="759" y="317" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599142756825" />
+    <state x="690" y="288" key="extract.method.dialog" timestamp="1599322416347">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="288" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599322416347" />
+    <state x="345" y="306" width="675" height="770" key="find.popup" timestamp="1600161686681">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="345" y="306" width="675" height="770" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1600161686681" />
+    <state x="525" y="327" key="git4idea.merge.GitPullDialog" timestamp="1599679918785">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="525" y="327" key="git4idea.merge.GitPullDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599679918785" />
+    <state x="725" y="439" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600161718341">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="725" y="439" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600161718341" />
+    <state x="757" y="438" key="git4idea.ui.GitStashDialog" timestamp="1599706512730">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="757" y="438" key="git4idea.ui.GitStashDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599706512730" />
+    <state x="728" y="385" key="git4idea.ui.GitUnstashDialog" timestamp="1599708047643">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="728" y="385" key="git4idea.ui.GitUnstashDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599708047643" />
+    <state x="334" y="150" key="new project wizard" timestamp="1600155559050">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="334" y="150" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1600155559050" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599664074998">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599664074998" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/handler/handler/impl/BlackListHandler.java</url>
+          <url>file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/BlackListHandler.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/handler/handler/impl/ConversationHandler.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/handler/handler/impl/CurrentLimitHandler.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/handler/service/HandlerServiceImpl.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/handler/controller/HandlerController.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/handler/service/HandlerServiceImpl.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/service/impl/PayServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/service/impl/PayServiceImpl.java</url>
           <line>21</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/factory/PaymentFactory.java</url>
+          <url>file://$PROJECT_DIR$/2-factory-pattern/src/src/main/java/com/factory/factory/PaymentFactory.java</url>
           <line>14</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/controller/PaymentController.java</url>
+          <url>file://$PROJECT_DIR$/2-factory-pattern/src/src/main/java/com/factory/controller/PaymentController.java</url>
           <line>18</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java</url>
           <line>18</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java</url>
           <line>15</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java</url>
           <line>20</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java</url>
           <line>23</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/AliPayStrategy.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/AliPayStrategy.java</url>
           <line>13</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/UnionPayStrategy.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/UnionPayStrategy.java</url>
           <line>12</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/WechatPayStrategy.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/WechatPayStrategy.java</url>
           <line>13</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/service/PayService.java</url>
+          <url>file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/service/PayService.java</url>
           <line>5</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/controller/PayCallbackController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/factory/TemplateFactory.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/abstracts/AbstractPayCallbackTemplate.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/impl/AliPayCallbackServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/impl/AliPayCallbackServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/service/impl/GatewayServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/service/impl/GatewayServiceImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/service/impl/GatewayServiceImpl.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/ApiCurrentLimitHandler.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/BlackListHandler.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/ConversationHandler.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/factory/GatewayFactory.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/NioFactory.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/TslaFactory.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/AutomobileSalesServiceFactory.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/factory/AutomobileSalesServiceFactory.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/ComputerServiceImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/MacBookBuilder.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/MacBookBuilder.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/MacBookBuilder.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/MacBookBuilder.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/MacBookBuilder.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/ComputerServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/Director.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/ComputerServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/proxy/OrderProxy1.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/controller/OrderController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/proxy/OrderProxy2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/controller/OrderController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/controller/OrderController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/intercept/CglibMethodInterceptor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/local-repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class</url>
+          <line>117</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/local-repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class</url>
+          <line>163</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/local-repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class</url>
+          <line>157</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/local-repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class</url>
+          <line>244</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/service/PaymentService.java</url>
+          <url>file://$PROJECT_DIR$/2-factory-pattern/src/src/main/java/com/factory/service/PaymentService.java</url>
           <line>11</line>
-          <properties class="com.factory.service.PaymentService" method="pay">
+          <properties class="com.factory.service.PaymentService">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>proxy-desgin-patterns</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="com.gateway.handler.BlackListHandler" fieldName="nextHandler" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/decorator-desgin-patterns" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/decorator-desgin-patterns/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factory-desgin-patterns" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factory-desgin-patterns/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/handler-desgin-patterns" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/handler-desgin-patterns/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/proxy-desgin-patterns" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/proxy-desgin-patterns/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/strategy-desgin-patterns" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/strategy-desgin-patterns/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/template-desgin-patterns" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/template-desgin-patterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/1-singleton-pattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-factory-pattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2-factory-pattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-builder-pattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-proxy-pattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-proxy-pattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-observer-pattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-strategy-desgin-patterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-template-desgin-patterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7-template-desgin-patterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8-handler-desgin-patterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/9-decorator-desgin-patterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

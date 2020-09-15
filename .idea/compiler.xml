@@ -7,20 +7,44 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="template-desgin-patterns" />
-        <module name="proxy-desgin-patterns" />
-        <module name="decorator-desgin-patterns" />
-        <module name="handler-desgin-patterns" />
         <module name="strategy-desgin-patterns" />
-        <module name="factory-desgin-patterns" />
+        <module name="2-factory-pattern" />
+        <module name="decorator-desgin-patterns" />
+        <module name="1-singleton-pattern" />
+        <module name="handler-desgin-patterns" />
+        <module name="5-observer-pattern" />
+        <module name="3-builder-pattern" />
+        <module name="4-proxy-pattern" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1-singleton-desgin-patterns" target="1.8" />
+      <module name="10-decorator-desgin-patterns" target="1.8" />
+      <module name="2-handler-desgin-patterns" target="1.8" />
+      <module name="3-factory-desgin-patterns" target="1.8" />
+      <module name="4-builder-patterns" target="1.8" />
+      <module name="5-proxy-desgin-patterns" target="1.8" />
+      <module name="7-strategy-desgin-patterns" target="1.8" />
+      <module name="8-template-desgin-patterns" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="1-singleton-desgin-patterns" options="-parameters" />
+      <module name="1-singleton-pattern" options="-parameters" />
+      <module name="10-decorator-desgin-patterns" options="-parameters" />
+      <module name="2-factory-pattern" options="-parameters" />
+      <module name="2-handler-desgin-patterns" options="-parameters" />
+      <module name="3-builder-pattern" options="-parameters" />
+      <module name="3-factory-desgin-patterns" options="-parameters" />
+      <module name="4-builder-patterns" options="-parameters" />
+      <module name="4-proxy-pattern" options="-parameters" />
+      <module name="5-observer-pattern" options="-parameters" />
+      <module name="5-proxy-desgin-patterns" options="-parameters" />
+      <module name="7-strategy-desgin-patterns" options="-parameters" />
+      <module name="8-template-desgin-patterns" options="-parameters" />
       <module name="decorator-desgin-patterns" options="-parameters" />
-      <module name="factory-desgin-patterns" options="-parameters" />
       <module name="handler-desgin-patterns" options="-parameters" />
-      <module name="proxy-desgin-patterns" options="-parameters" />
       <module name="strategy-desgin-patterns" options="-parameters" />
       <module name="template-desgin-patterns" options="-parameters" />
     </option>

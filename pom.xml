@@ -11,16 +11,21 @@
     </parent>
 
     <groupId>com.springboot</groupId>
-    <artifactId>design-patterns</artifactId>
+    <artifactId>2-java-design-patterns</artifactId>
+    <name>Java设计模式</name>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>strategy-desgin-patterns</module>
-        <module>handler-desgin-patterns</module>
-        <module>factory-desgin-patterns</module>
-        <module>template-desgin-patterns</module>
-        <module>proxy-desgin-patterns</module>
+        <module>1-singleton-pattern</module>
+        <module>2-factory-pattern</module>
+        <module>3-builder-pattern</module>
+        <module>4-proxy-pattern</module>
+        <module>5-observer-pattern</module>
+        <module>6-strategy-desgin-patterns</module>
+        <module>7-template-desgin-patterns</module>
+        <module>8-handler-desgin-patterns</module>
+        <module>9-decorator-desgin-patterns</module>
     </modules>
 
     <dependencies>
@@ -53,7 +58,6 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
     </dependencies>
 
 </project>
