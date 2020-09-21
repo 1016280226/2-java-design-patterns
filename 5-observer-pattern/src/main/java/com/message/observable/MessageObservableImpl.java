@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * description: 微信公众号（具体主题）
+ * description: 消息主题（具体主题）
  * date: 2020/9/16 1:26
  * author: Calvin
  * version: 1.0

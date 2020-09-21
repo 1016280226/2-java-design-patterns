@@ -22,10 +22,11 @@
         <module>3-builder-pattern</module>
         <module>4-proxy-pattern</module>
         <module>5-observer-pattern</module>
-        <module>6-strategy-desgin-patterns</module>
-        <module>7-template-desgin-patterns</module>
-        <module>8-handler-desgin-patterns</module>
-        <module>9-decorator-desgin-patterns</module>
+        <module>6-strategy-pattern</module>
+        <module>7-template-pattern</module>
+        <module>8-handler-pattern</module>
+        <module>9-decorator-pattern</module>
+        <module>10-state-pattern</module>
     </modules>
 
     <dependencies>
@@ -58,6 +59,7 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
     </dependencies>
 
 </project>

@@ -19,196 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f257d6b6-19c0-417e-9831-8042bb2f5475" name="Default Changelist" comment="《设计模式-单例模式》">
-      <change afterPath="$PROJECT_DIR$/1-singleton-pattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-factory-pattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-builder-pattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-proxy-pattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-observer-pattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-observer-pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/StrategyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/entity/PaymentChannelEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/enumeration/PayCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/mapper/PaymentChannelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/service/PayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/service/impl/PayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/AliPayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/PayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/UnionPayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/WechatPayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-template-desgin-patterns/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/entity/GatewayHandlerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/ApiCurrentLimitHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/BlackListHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/ConversationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/handler/abstracts/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/mapper/HandlerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/service/GatewayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/service/impl/GatewayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/java/com/gateway/utils/ContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-handler-desgin-patterns/src/main/resources/gateway_handler.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/.gitignore" afterDir="false" />
+    <list default="true" id="f257d6b6-19c0-417e-9831-8042bb2f5475" name="Default Changelist" comment="Java设计模式-重构">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/5-代理设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/4-代理模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/handler/JdkInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/handler/JdkInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/intercept/CglibMethodInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/intercept/CglibMethodInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/dynamic/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/dynamic/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/proxy/OrderProxy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/proxy/OrderProxy1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/proxy/OrderProxy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/proxy/OrderProxy2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/java/com/order/statics/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/java/com/order/statics/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-proxy-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/4-proxy-pattern/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/ComputerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/ComputerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/abstracts/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/abstracts/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/abstracts/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/abstracts/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/builder/MacBookBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/MacBookBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/builder/WindowsBookBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/builder/WindowsBookBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/controller/ComputerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/controller/ComputerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/enumeration/ComputerBuildEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/enumeration/ComputerBuildEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/service/ComputerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/ComputerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/service/impl/ComputerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/ComputerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/service/impl/MacBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/MacBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/java/com/computer/service/impl/WindowsBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/java/com/computer/service/impl/WindowsBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builder-patterns/笔记四 建造者模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/3-builder-pattern/3-建造者模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/BaseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/BaseComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/LimitComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/LimitComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/LogComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/LogComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/abstracts/AbstractDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/abstracts/AbstractDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/abstracts/GatewayComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/abstracts/GatewayComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/component/factory/GatewayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/component/factory/GatewayFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-desgin-patterns/笔记五 装饰者设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/9-decorator-desgin-patterns/9-装饰者设计模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/CarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/CarApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/controller/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/enumeration/CarCategoryEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/enumeration/CarCategoryEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/factory/AutomobileSalesServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/factory/AutomobileSalesServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/factory/NioCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/factory/NioCarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/factory/VolkswagenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/factory/VolkswagenFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/ChairService.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/ChairService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/EngineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/EngineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/impl/NioCarChairServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/impl/NioCarChairServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/impl/NioCarEngineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/impl/NioCarEngineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/impl/VolkswagenChairServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/impl/VolkswagenChairServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/abstracts/service/impl/VolkswagenEngineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/abstracts/service/impl/VolkswagenEngineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/controller/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/enumeration/CarCategoryEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/enumeration/CarCategoryEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/enumeration/NioCarModeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/enumeration/NioCarModeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/enumeration/TslaCarModleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/enumeration/TslaCarModleEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/factory/AutomobileSalesServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/AutomobileSalesServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/factory/NioFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/NioFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/factory/TslaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/factory/TslaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/NioEC6CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/NioEC6CarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/NioES6CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/NioES6CarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/NioES8CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/NioES8CarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/TslaModel3CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/TslaModel3CarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/TslaModelSCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/TslaModelSCarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/method/service/impl/TslaModelXCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/method/service/impl/TslaModelXCarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/controller/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/enumeration/CarBrandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/enumeration/CarBrandEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/factory/AutomobileSalesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/factory/AutomobileSalesFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/service/impl/NioCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/service/impl/NioCarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/java/com/car/smiple/service/impl/TslaCarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/java/com/car/smiple/service/impl/TslaCarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/AppFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/controller/PaymentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/factory/PaymentFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/service/AliPayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/service/PaymentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/src/src/main/java/com/factory/service/WechatServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-desgin-patterns/笔记三 工厂设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/2-factory-pattern/2-工厂模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/GatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/controller/GatewayController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/entity/GatewayHandlerEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/handler/ApiCurrentLimitHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/handler/BlackListHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/handler/ConversationHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/handler/abstracts/Handler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/mapper/HandlerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/service/GatewayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/service/impl/GatewayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/java/com/gateway/utils/ContextUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/src/main/resources/gateway_handler.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler-desgin-patterns/笔记二 责任链设计模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/proxy/JdkInvocationHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/service/OrderDynamicService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/dynamic/service/OrderDynamicServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/proxy/OrderStaticProxy1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/service/OrderStaticService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-desgin-patterns/src/main/java/com/statics/service/OrderStaticServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/DoubleSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/DoubleSynchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/Enums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/Hungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/Lazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/SecuritySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/SecuritySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/src/main/java/com/singleton/create/StaticInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/src/main/java/com/singleton/create/StaticInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-desgin-patterns/单例模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-singleton-pattern/1-单例模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/StrategyApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/controller/PayController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/entity/PaymentChannelEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/enumeration/PayCodeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/mapper/PaymentChannelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/service/PayService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/service/impl/PayServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/AliPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/PayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/UnionPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/WechatPayStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/strategy/factory/StrategyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/target/strategy-desgin-patterns-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy-desgin-patterns/笔记一 策略设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/6-策略模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/PayCallbackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/PayCallbackApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/controller/PayCallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/controller/PayCallbackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/enumeration/PayCallbackTemplateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/enumeration/PayCallbackTemplateEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/factory/TemplateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/factory/TemplateFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/AliPayCallbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/AliPayCallbackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/UnionPayCallbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/UnionPayCallbackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/abstracts/AbstractPayCallbackTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/abstracts/AbstractPayCallbackTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/impl/AliPayCallbackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/impl/AliPayCallbackServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/service/impl/UnionPayCallbackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/java/com/pay/service/impl/UnionPayCallbackServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/6-strategy-desgin-patterns/src/main/java/com/pay/utils/ContextUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-desgin-patterns/笔记四 模板方法设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/7-template-desgin-patterns/7-模板模式.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -817,7 +631,7 @@
       <workItem from="1600095158716" duration="6298000" />
       <workItem from="1600138791698" duration="5569000" />
       <workItem from="1600150935814" duration="3089000" />
-      <workItem from="1600160897451" duration="1087000" />
+      <workItem from="1600160897451" duration="1588000" />
     </task>
     <task id="LOCAL-00001" summary="更新策略模式">
       <created>1599050806272</created>
@@ -868,7 +682,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599712333546</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Java设计模式-重构">
+      <created>1600162138817</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600162138817</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Java设计模式-重构">
+      <created>1600162202348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600162202348</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -892,7 +720,8 @@
     <MESSAGE value="更新责任链模式" />
     <MESSAGE value="《设计模式-工厂模式》" />
     <MESSAGE value="《设计模式-单例模式》" />
-    <option name="LAST_COMMIT_MESSAGE" value="《设计模式-单例模式》" />
+    <MESSAGE value="Java设计模式-重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java设计模式-重构" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="402" key="#Notifications" timestamp="1599705876635">
@@ -939,22 +768,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599496429786" />
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1600161920438">
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1600162070998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600161920438" />
-    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1600161920438">
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600162070998" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1600162070998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600161920438" />
-    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1600161920437">
+    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600162070998" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1600162070998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600161920437" />
-    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1600161920438">
+    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600162070998" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1600162070998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600161920438" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600162070998" />
     <state width="1325" height="352" key="GridCell.Tab.1.bottom" timestamp="1600146601064">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -991,10 +820,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="496" y="327" width="998" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600161985555" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1599712342749">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600162211247">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599712342749" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600162211247" />
     <state x="759" y="317" key="chooseDestDirectoryDialog" timestamp="1599142756825">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

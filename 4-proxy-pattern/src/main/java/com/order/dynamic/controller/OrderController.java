@@ -23,7 +23,7 @@ public class OrderController {
 
     @GetMapping("jdk")
     public String order1(){
-        // JDK调用处理器
+        // JDK调用处理器 -> 实现代理类
         JdkInvocationHandler jdkInvocationHandler = new JdkInvocationHandler(new OrderServiceImpl());
         // 获取代理对象
         OrderService orderService = jdkInvocationHandler.getProxy();
@@ -39,7 +39,7 @@ public class OrderController {
         Enhancer enhancer = new Enhancer();
         // 设置代理类的付类
         enhancer.setSuperclass(OrderServiceImpl.class);
-        // 设置回调对象
+        // 设置回调对象G:\workspace\github\java\2-java-design-patterns\4-proxy-pattern\src\main\java\com\order\dynamic\proxy
         enhancer.setCallback(cglibMethodInterceptor);
         // 创建代理对象
         OrderServiceImpl orderServiceImpl = (OrderServiceImpl) enhancer.create();

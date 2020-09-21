@@ -1,7 +1,8 @@
 package com.message.observable;
 
-
 import com.message.observer.MessageObserver;
+
+
 
 /**
  * description: 抽象被观察者 （抽象主题角色）

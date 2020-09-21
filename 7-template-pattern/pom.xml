@@ -9,16 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>5-observer-pattern</artifactId>
-    <name>观察者模式</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.28</version>
-        </dependency>
-    </dependencies>
+    <artifactId>7-template-pattern</artifactId>
+    <name>模板模式</name>
 
 
 </project>

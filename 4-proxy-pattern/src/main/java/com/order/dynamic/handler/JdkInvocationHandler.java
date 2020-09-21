@@ -4,6 +4,8 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+import static org.springframework.cglib.core.DebuggingClassWriter.DEBUG_LOCATION_PROPERTY;
+
 
 /**
  * Created by Calvin on 2019/5/22
@@ -51,6 +53,7 @@ public class JdkInvocationHandler implements InvocationHandler {
          * 第二个参数: 目标对象实现的接口（被代理（房东、车主....））
          * 第三个参数：当前 JdkInvocationHandler
          */
+        System.setProperty(DEBUG_LOCATION_PROPERTY, "G:\\workspace\\github\\java\\2-java-design-patterns\\4-proxy-pattern\\src\\main\\java\\com\\order\\dynamic\\proxy");
         return (T) Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
     }
 
